@@ -1,0 +1,193 @@
+#Start code here
+from turtle import *
+turtle = Turtle()
+screen = Screen()
+turtle.speed(255)
+turtle.penup()
+def block(pen_color):
+  turtle.pencolor(pen_color)
+  turtle.fillcolor(pen_color)
+  turtle.pendown()
+  turtle.begin_fill()
+  for i in range(4):
+    turtle.forward(5)
+    turtle.right(90)
+  turtle.forward(5)
+  turtle.end_fill()
+  turtle.penup()
+def NXTSG():
+  turtle.backward(85)
+  turtle.left(90)
+  turtle.forward(5)
+  turtle.right(90)
+for i in range(9):
+  block("White")
+for i in range(2):
+  block("Black")
+for i in range(6):
+  block("White")
+NXTSG()
+for i in range(3):
+  block("White")
+for i in range(6):
+  block("Black")
+for i in range(2):
+  block("Dodger Blue")
+for i in range(2):
+  block("Black")
+for i in range(4):
+  block("White")
+NXTSG()
+for i in range(2):
+  block("White")
+block("Black")
+for i in range(6):
+  block("Yellow")
+block("Dodger Blue")
+block("Dodger Blue")
+block("Black")
+block("Dodger Blue")
+block("Black")
+for i in range(3):
+  block("White")
+NXTSG()
+block("White")
+block("Black")
+for i in range(3):
+  block("Yellow")
+for i in range(8):
+  block("Dodger Blue")
+block("Black")
+for i in range(3):
+  block("White")
+NXTSG()
+block("White")
+block("Black")
+block("Yellow")
+block("Dodger Blue")
+block("Dodger Blue")
+block("White")
+block("Black")
+block("White")
+for i in range(5):
+  block("Dodger Blue")
+block("Black")
+block("Black")
+block("White")
+block("White")
+NXTSG()
+block("White")
+block("White")
+for i in range(10):
+  block("Black")
+for i in range(3):
+  block("Dodger Blue")
+block("Black")
+block("White")
+NXTSG()
+block("White")
+block("Black")
+block("Black")
+for i in range(8):
+  block("Green")
+for i in range(5):
+  block("Black")
+block("White")
+NXTSG()
+block("Black")
+block("Dark Gray")
+block("Green")
+block("Chartreuse")
+block("Dark Gray")
+for i in range(5):
+  block("Black")
+for i in range(4):
+  block("Green")
+block("Black")
+block("White")
+block("White")
+NXTSG()
+block("Black")
+block("Green")
+block("Chartreuse")
+block("Black")
+block("Black")
+for i in range(5):
+  block("Chartreuse")
+for i in range(3):
+  block("Black")
+block("Green")
+block("Green")
+block("Black")
+NXTSG()
+block("Black")
+block("Chartreuse")
+block("Black")
+block("Chartreuse")
+block("Chartreuse")
+block("Green")
+block("Green")
+for i in range(6):
+  block("Chartreuse")
+block("Black")
+block("Black")
+block("Green")
+block("Black")
+NXTSG()
+block("Black")
+block("Chartreuse")
+block("Black")
+block("Dark Gray")
+for i in range(3):
+  block("Chartreuse")
+block("Green")
+for i in range(4):
+  block("Black")
+for i in range(3):
+  block("Chartreuse")
+block("Black")
+block("Black")
+NXTSG()
+block("White")
+block("Black")
+block("Green")
+block("Green")
+block("Dark Gray")
+block("Dark Gray")
+block("Chartreuse")
+block("Chartreuse")
+block("Green")
+block("Black")
+block("White")
+block("White")
+for i in range(4):
+  block("Black")
+block("White")
+NXTSG()
+block("White")
+block("White")
+block("Black")
+block("Black")
+block("Green")
+block("Green")
+for i in range(4):
+  block("Dark Gray")
+block("Black")
+for i in range(6):
+  block("White")
+NXTSG()
+for i in range(4):
+  block("White")
+block("Black")
+block("Black")
+for i in range(5):
+  block("Green")
+block("Black")
+for i in range(5):
+  block("White")
+NXTSG()
+for i in range(6):
+  block("White")
+for i in range(6):
+  block("Black")
+NXTSG()
